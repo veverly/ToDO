@@ -1,0 +1,38 @@
+Pods/*
+.DS_Store
+# Xcode Workspace
+*.xcworkspace/*
+!*.xcworkspace/contents.xcworkspacedata
+#--------
+# Xcode Project
+**/*.xcodeproj/project.xcworkspace/xcuserdata/*
+**/*.xcodeproj/xcuserdata/*
+!**/*.xcodeproj/project.pbxproj
+!**/*.xcodeproj/default.*
+
+.bundle
+vendor/*
+AdHoc_*
+AppStore_*
+
+*.zip
+*.ipa
+
+.envrc
+.swiftlint-ci.yml
+swiftlint.result.json
+report.html
+
+# fastlane specific
+fastlane/report.xml
+
+# deliver temporary files
+fastlane/Preview.html
+
+# snapshot generated screenshots
+fastlane/screenshots
+
+# scan temporary files
+fastlane/test_output
+
+*.cer
