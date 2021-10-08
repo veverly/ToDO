@@ -16,6 +16,7 @@ target 'ToDo' do
   pod 'SwiftyUserDefaults'
   pod 'SnapKit', '~> 5.0.0'
   pod 'Moya/RxSwift'
+  pod 'Alamofire'
 
   target 'ToDoTests' do
     inherit! :search_paths
