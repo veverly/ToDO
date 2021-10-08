@@ -255,7 +255,7 @@
 				04DBCE6B270EE0910045E637 /* Frameworks */,
 				04DBCE6C270EE0910045E637 /* Resources */,
 				AA27B422D8D53D77F98609E4 /* [CP] Embed Pods Frameworks */,
-				04DBCEB8270EE1A50045E637 /* ShellScript */,
+				0431DDB52710338500351585 /* SwiftGen */,
 			);
 			buildRules = (
 			);
@@ -381,7 +381,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		04DBCEB8270EE1A50045E637 /* ShellScript */ = {
+		0431DDB52710338500351585 /* SwiftGen */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -390,13 +390,14 @@
 			);
 			inputPaths = (
 			);
+			name = SwiftGen;
 			outputFileListPaths = (
 			);
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "if [[ -f \"${PODS_ROOT}/SwiftGen/bin/swiftgen\" ]]; then\n  \"${PODS_ROOT}/SwiftGen/bin/swiftgen\"\nelse\n  echo \"warning: SwiftGen is not installed. Run 'pod install --repo-update' to install it.\"\nfi # Type a script or drag a script file from your workspace to insert its path.\n";
+			shellScript = "if [[ -f \"${PODS_ROOT}/SwiftGen/bin/swiftgen\" ]]; then\n  \"${PODS_ROOT}/SwiftGen/bin/swiftgen\"\nelse\n  echo \"warning: SwiftGen is not installed. Run 'pod install --repo-update' to install it.\"\nfi \n";
 		};
 		2D3DE82262AF7CD457FCDDE3 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
