@@ -10,6 +10,10 @@ target 'ToDo' do
   pod 'Firebase/Analytics'
   pod 'RxSwift', '~> 5'
   pod 'RxCocoa', '~> 5'
+  pod 'IQKeyboardManagerSwift'
+  pod 'RealmSwift'
+  pod 'SwiftyJSON', '~> 4.0'
+  pod 'SwiftyUserDefaults'
 
   target 'ToDoTests' do
     inherit! :search_paths
