@@ -14,6 +14,8 @@ target 'ToDo' do
   pod 'RealmSwift'
   pod 'SwiftyJSON', '~> 4.0'
   pod 'SwiftyUserDefaults'
+  pod 'SnapKit', '~> 5.0.0'
+  pod 'Moya/RxSwift', '~> 15.0'
 
   target 'ToDoTests' do
     inherit! :search_paths

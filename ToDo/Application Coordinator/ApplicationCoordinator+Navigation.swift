@@ -9,10 +9,5 @@ import UIKit
 
 extension ApplicationCoordinator {
 
-    func setupSignIn() {
-        let signinVC = SignInViewController()
-        let navVC = UINavigationController(rootViewController: signinVC)
-        window.rootViewController = navVC
-        window.makeKeyAndVisible()
-    }
+    
 }

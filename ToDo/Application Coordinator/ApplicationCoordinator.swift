@@ -15,7 +15,9 @@ final class ApplicationCoordinator {
     }
 
     func start() {
-        setupSignIn()
+        let signinVC = SignInViewController()
+        let navVC = UINavigationController(rootViewController: signinVC)
+        window.rootViewController = navVC
         window.makeKeyAndVisible()
     }
 }
