@@ -12,6 +12,9 @@
 		040C9735270FE6ED007A54CD /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040C9734270FE6ED007A54CD /* SignInViewController.swift */; };
 		0431DB09270FF51F00351585 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0431DB08270FF51F00351585 /* GoogleService-Info.plist */; };
 		0431DB4927101BA800351585 /* SlantedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0431DB4827101BA800351585 /* SlantedView.swift */; };
+		0431DE8D2710392600351585 /* swiftgen.yml in Resources */ = {isa = PBXBuildFile; fileRef = 0431DE8C2710392600351585 /* swiftgen.yml */; };
+		0431DE952710394000351585 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0431DE942710394000351585 /* Strings.swift */; };
+		0431DE9A2710396E00351585 /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0431DE992710396E00351585 /* Assets.swift */; };
 		04DBCE72270EE0910045E637 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DBCE71270EE0910045E637 /* AppDelegate.swift */; };
 		04DBCE74270EE0910045E637 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DBCE73270EE0910045E637 /* SceneDelegate.swift */; };
 		04DBCE79270EE0910045E637 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04DBCE77270EE0910045E637 /* Main.storyboard */; };
@@ -19,10 +22,7 @@
 		04DBCE7E270EE0930045E637 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04DBCE7C270EE0930045E637 /* LaunchScreen.storyboard */; };
 		04DBCE89270EE0930045E637 /* ToDoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DBCE88270EE0930045E637 /* ToDoTests.swift */; };
 		04DBCE94270EE0930045E637 /* ToDoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DBCE93270EE0930045E637 /* ToDoUITests.swift */; };
-		04DBCEBA270EE2350045E637 /* swiftgen.yml in Resources */ = {isa = PBXBuildFile; fileRef = 04DBCEB9270EE2350045E637 /* swiftgen.yml */; };
 		04DBCF02270EE3FB0045E637 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04DBCF01270EE3FB0045E637 /* Colors.xcassets */; };
-		04DBCF09270EE4850045E637 /* Strings.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04DBCF08270EE4850045E637 /* Strings.strings */; };
-		04DBCF0E270EE4950045E637 /* Assets.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04DBCF0D270EE4950045E637 /* Assets.strings */; };
 		04DBCF2E270EE5D30045E637 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04DBCF30270EE5D30045E637 /* Localizable.strings */; };
 		05F6A9F1F2B5815D521F1F9C /* Pods_ToDo_ToDoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2C1D4B90D7188EE35377765 /* Pods_ToDo_ToDoUITests.framework */; };
 		AF1DB859A255ADDA6110CAA7 /* Pods_ToDo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 805C2C6F5B998A94041C2676 /* Pods_ToDo.framework */; };
@@ -53,6 +53,9 @@
 		040C9734270FE6ED007A54CD /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		0431DB08270FF51F00351585 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "ToDo/Supporting/GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		0431DB4827101BA800351585 /* SlantedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlantedView.swift; sourceTree = "<group>"; };
+		0431DE8C2710392600351585 /* swiftgen.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = swiftgen.yml; sourceTree = "<group>"; };
+		0431DE942710394000351585 /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		0431DE992710396E00351585 /* Assets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
 		04DBCE6E270EE0910045E637 /* ToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04DBCE71270EE0910045E637 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04DBCE73270EE0910045E637 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,10 +69,7 @@
 		04DBCE8F270EE0930045E637 /* ToDoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04DBCE93270EE0930045E637 /* ToDoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoUITests.swift; sourceTree = "<group>"; };
 		04DBCE95270EE0930045E637 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		04DBCEB9270EE2350045E637 /* swiftgen.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = swiftgen.yml; sourceTree = "<group>"; };
 		04DBCF01270EE3FB0045E637 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
-		04DBCF08270EE4850045E637 /* Strings.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Strings.strings; sourceTree = "<group>"; };
-		04DBCF0D270EE4950045E637 /* Assets.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Assets.strings; sourceTree = "<group>"; };
 		04DBCF2F270EE5D30045E637 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		5A32837893C1592AEE3DEADB /* Pods-ToDoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToDoTests.release.xcconfig"; path = "Target Support Files/Pods-ToDoTests/Pods-ToDoTests.release.xcconfig"; sourceTree = "<group>"; };
 		805C2C6F5B998A94041C2676 /* Pods_ToDo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ToDo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -120,7 +120,7 @@
 		04DBCE65270EE0910045E637 = {
 			isa = PBXGroup;
 			children = (
-				04DBCEB9270EE2350045E637 /* swiftgen.yml */,
+				0431DE8C2710392600351585 /* swiftgen.yml */,
 				04DBCE70270EE0910045E637 /* ToDo */,
 				04DBCE87270EE0930045E637 /* ToDoTests */,
 				04DBCE92270EE0930045E637 /* ToDoUITests */,
@@ -184,8 +184,8 @@
 		04DBCF06270EE4100045E637 /* SwiftGen */ = {
 			isa = PBXGroup;
 			children = (
-				04DBCF08270EE4850045E637 /* Strings.strings */,
-				04DBCF0D270EE4950045E637 /* Assets.strings */,
+				0431DE942710394000351585 /* Strings.swift */,
+				0431DE992710396E00351585 /* Assets.swift */,
 			);
 			path = SwiftGen;
 			sourceTree = "<group>";
@@ -355,12 +355,10 @@
 				04DBCF02270EE3FB0045E637 /* Colors.xcassets in Resources */,
 				04DBCE7E270EE0930045E637 /* LaunchScreen.storyboard in Resources */,
 				0431DB09270FF51F00351585 /* GoogleService-Info.plist in Resources */,
-				04DBCF0E270EE4950045E637 /* Assets.strings in Resources */,
 				04DBCE7B270EE0930045E637 /* Assets.xcassets in Resources */,
 				04DBCE79270EE0910045E637 /* Main.storyboard in Resources */,
 				04DBCF2E270EE5D30045E637 /* Localizable.strings in Resources */,
-				04DBCEBA270EE2350045E637 /* swiftgen.yml in Resources */,
-				04DBCF09270EE4850045E637 /* Strings.strings in Resources */,
+				0431DE8D2710392600351585 /* swiftgen.yml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -508,10 +506,12 @@
 			files = (
 				0431DB4927101BA800351585 /* SlantedView.swift in Sources */,
 				040C9735270FE6ED007A54CD /* SignInViewController.swift in Sources */,
+				0431DE9A2710396E00351585 /* Assets.swift in Sources */,
 				040C9716270FD9EE007A54CD /* ApplicationCoordinator.swift in Sources */,
 				040C9730270FE640007A54CD /* ApplicationCoordinator+Navigation.swift in Sources */,
 				04DBCE72270EE0910045E637 /* AppDelegate.swift in Sources */,
 				04DBCE74270EE0910045E637 /* SceneDelegate.swift in Sources */,
+				0431DE952710394000351585 /* Strings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
