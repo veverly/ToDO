@@ -10,8 +10,17 @@ import SnapKit
 
 class SignInViewController: UIViewController {
 
-    private var slantedView: SlantedView = SlantedView()
-    let gradient = CAGradientLayer()
+    var titleLabel: UILabel = UILabel()
+    var bodySlantedView: SlantedView = SlantedView()
+    var footerSlantedView: SlantedView = SlantedView()
+    var emailMarkerLabel: UILabel = UILabel()
+    var emailTextField: UITextField = UITextField()
+    var passwordMarkerLabel: UILabel = UILabel()
+    var passwordTextField: UITextField = UITextField()
+    var messageLabel: UILabel = UILabel()
+    var accountButton: UIButton = UIButton()
+    var logInButton: UIButton = UIButton()
+    var stackView: UIStackView = UIStackView()
 
     override func loadView() {
         super.loadView()
@@ -21,22 +30,4 @@ class SignInViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-
-    private func setupScene() {
-        setupSlantedView()
-        gradient.frame = view.bounds
-        gradient.colors = [UIColor.white.cgColor, UIColor.black.cgColor]
-    }
-
-    private func setupSlantedView() {
-        view.addSubview(slantedView)
-        slantedView.layer.cornerRadius = 30
-        slantedView.backgroundColor = .green
-        slantedView.snp.makeConstraints { make in
-            make.top.equalToSuperview().offset(20)
-            make.left.right.equalToSuperview().inset(10)
-            make.bottom.equalToSuperview().inset(50)
-        }
-    }
-
 }

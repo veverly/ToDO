@@ -15,6 +15,8 @@
 		0431DE8D2710392600351585 /* swiftgen.yml in Resources */ = {isa = PBXBuildFile; fileRef = 0431DE8C2710392600351585 /* swiftgen.yml */; };
 		0431DE952710394000351585 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0431DE942710394000351585 /* Strings.swift */; };
 		0431DE9A2710396E00351585 /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0431DE992710396E00351585 /* Assets.swift */; };
+		0431DED827103AF500351585 /* UIVIew+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0431DED727103AF500351585 /* UIVIew+Extensions.swift */; };
+		0431DEFA2710503400351585 /* SigInViewController+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0431DEF92710503400351585 /* SigInViewController+View.swift */; };
 		04DBCE72270EE0910045E637 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DBCE71270EE0910045E637 /* AppDelegate.swift */; };
 		04DBCE74270EE0910045E637 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DBCE73270EE0910045E637 /* SceneDelegate.swift */; };
 		04DBCE79270EE0910045E637 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04DBCE77270EE0910045E637 /* Main.storyboard */; };
@@ -56,6 +58,8 @@
 		0431DE8C2710392600351585 /* swiftgen.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = swiftgen.yml; sourceTree = "<group>"; };
 		0431DE942710394000351585 /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
 		0431DE992710396E00351585 /* Assets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
+		0431DED727103AF500351585 /* UIVIew+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIVIew+Extensions.swift"; sourceTree = "<group>"; };
+		0431DEF92710503400351585 /* SigInViewController+View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SigInViewController+View.swift"; sourceTree = "<group>"; };
 		04DBCE6E270EE0910045E637 /* ToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04DBCE71270EE0910045E637 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04DBCE73270EE0910045E637 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -117,6 +121,14 @@
 			path = Reusable;
 			sourceTree = "<group>";
 		};
+		0431DED627103AE000351585 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0431DED727103AF500351585 /* UIVIew+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		04DBCE65270EE0910045E637 = {
 			isa = PBXGroup;
 			children = (
@@ -143,6 +155,7 @@
 		04DBCE70270EE0910045E637 /* ToDo */ = {
 			isa = PBXGroup;
 			children = (
+				0431DED627103AE000351585 /* Extensions */,
 				04DBCF68270F018D0045E637 /* Application Coordinator */,
 				04DBCF48270EF5AA0045E637 /* Views */,
 				04DBCED5270EE3120045E637 /* Supporting */,
@@ -207,6 +220,7 @@
 			isa = PBXGroup;
 			children = (
 				040C9734270FE6ED007A54CD /* SignInViewController.swift */,
+				0431DEF92710503400351585 /* SigInViewController+View.swift */,
 			);
 			path = SignIn;
 			sourceTree = "<group>";
@@ -510,6 +524,8 @@
 				040C9716270FD9EE007A54CD /* ApplicationCoordinator.swift in Sources */,
 				040C9730270FE640007A54CD /* ApplicationCoordinator+Navigation.swift in Sources */,
 				04DBCE72270EE0910045E637 /* AppDelegate.swift in Sources */,
+				0431DEFA2710503400351585 /* SigInViewController+View.swift in Sources */,
+				0431DED827103AF500351585 /* UIVIew+Extensions.swift in Sources */,
 				04DBCE74270EE0910045E637 /* SceneDelegate.swift in Sources */,
 				0431DE952710394000351585 /* Strings.swift in Sources */,
 			);
