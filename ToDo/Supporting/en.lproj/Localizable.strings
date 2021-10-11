@@ -1,1 +1,18 @@
+// English
 
+"sign_up.label.signup" = "Sign Up";
+"sign_up.label.firstName" = "First Name";
+"sign_up.label.middleName" = "Middle Name";
+"sign_up.label.lastName" = "Last Name";
+"sign_up.label.email" = "Email";
+"sign_up.label.password" = "Password";
+"sign_up.label.confirmPassword" = "Confirm Password";
+"sign_up.label.accountMessage" = "Already have an";
+"sign_up.button.account" = "Account?";
+"sign_up.label.age" = "Age";
+"sign_up.label.mobile" = "Mobile";
+"sign_up.label.address" = "Address";
+
+"sign_in.label.login" = "Log in";
+"sign_in.label.accountMessage" = "Don't have an";
+"sign_in.label.rememberMe" = "Remember me";

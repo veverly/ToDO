@@ -7,18 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		040C9716270FD9EE007A54CD /* ApplicationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040C9715270FD9EE007A54CD /* ApplicationCoordinator.swift */; };
+		040C9730270FE640007A54CD /* ApplicationCoordinator+Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040C972F270FE640007A54CD /* ApplicationCoordinator+Navigation.swift */; };
+		040C9735270FE6ED007A54CD /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040C9734270FE6ED007A54CD /* SignInViewController.swift */; };
+		0431DB09270FF51F00351585 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0431DB08270FF51F00351585 /* GoogleService-Info.plist */; };
+		0431DB4927101BA800351585 /* SlantedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0431DB4827101BA800351585 /* SlantedView.swift */; };
+		0431DE8D2710392600351585 /* swiftgen.yml in Resources */ = {isa = PBXBuildFile; fileRef = 0431DE8C2710392600351585 /* swiftgen.yml */; };
+		0431DE952710394000351585 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0431DE942710394000351585 /* Strings.swift */; };
+		0431DE9A2710396E00351585 /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0431DE992710396E00351585 /* Assets.swift */; };
+		0431DED827103AF500351585 /* UIVIew+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0431DED727103AF500351585 /* UIVIew+Extensions.swift */; };
+		0431DEFA2710503400351585 /* SigInViewController+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0431DEF92710503400351585 /* SigInViewController+View.swift */; };
 		04DBCE72270EE0910045E637 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DBCE71270EE0910045E637 /* AppDelegate.swift */; };
 		04DBCE74270EE0910045E637 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DBCE73270EE0910045E637 /* SceneDelegate.swift */; };
-		04DBCE76270EE0910045E637 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DBCE75270EE0910045E637 /* ViewController.swift */; };
 		04DBCE79270EE0910045E637 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04DBCE77270EE0910045E637 /* Main.storyboard */; };
 		04DBCE7B270EE0930045E637 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04DBCE7A270EE0930045E637 /* Assets.xcassets */; };
 		04DBCE7E270EE0930045E637 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04DBCE7C270EE0930045E637 /* LaunchScreen.storyboard */; };
 		04DBCE89270EE0930045E637 /* ToDoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DBCE88270EE0930045E637 /* ToDoTests.swift */; };
 		04DBCE94270EE0930045E637 /* ToDoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DBCE93270EE0930045E637 /* ToDoUITests.swift */; };
-		04DBCEBA270EE2350045E637 /* swiftgen.yml in Resources */ = {isa = PBXBuildFile; fileRef = 04DBCEB9270EE2350045E637 /* swiftgen.yml */; };
 		04DBCF02270EE3FB0045E637 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04DBCF01270EE3FB0045E637 /* Colors.xcassets */; };
-		04DBCF09270EE4850045E637 /* Strings.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04DBCF08270EE4850045E637 /* Strings.strings */; };
-		04DBCF0E270EE4950045E637 /* Assets.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04DBCF0D270EE4950045E637 /* Assets.strings */; };
 		04DBCF2E270EE5D30045E637 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04DBCF30270EE5D30045E637 /* Localizable.strings */; };
 		05F6A9F1F2B5815D521F1F9C /* Pods_ToDo_ToDoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2C1D4B90D7188EE35377765 /* Pods_ToDo_ToDoUITests.framework */; };
 		AF1DB859A255ADDA6110CAA7 /* Pods_ToDo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 805C2C6F5B998A94041C2676 /* Pods_ToDo.framework */; };
@@ -44,10 +50,19 @@
 
 /* Begin PBXFileReference section */
 		029798E8FED6B3A5F6F2E270 /* Pods_ToDoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ToDoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		040C9715270FD9EE007A54CD /* ApplicationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationCoordinator.swift; sourceTree = "<group>"; };
+		040C972F270FE640007A54CD /* ApplicationCoordinator+Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ApplicationCoordinator+Navigation.swift"; sourceTree = "<group>"; };
+		040C9734270FE6ED007A54CD /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		0431DB08270FF51F00351585 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "ToDo/Supporting/GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		0431DB4827101BA800351585 /* SlantedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlantedView.swift; sourceTree = "<group>"; };
+		0431DE8C2710392600351585 /* swiftgen.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = swiftgen.yml; sourceTree = "<group>"; };
+		0431DE942710394000351585 /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		0431DE992710396E00351585 /* Assets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
+		0431DED727103AF500351585 /* UIVIew+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIVIew+Extensions.swift"; sourceTree = "<group>"; };
+		0431DEF92710503400351585 /* SigInViewController+View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SigInViewController+View.swift"; sourceTree = "<group>"; };
 		04DBCE6E270EE0910045E637 /* ToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04DBCE71270EE0910045E637 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04DBCE73270EE0910045E637 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		04DBCE75270EE0910045E637 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		04DBCE78270EE0910045E637 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04DBCE7A270EE0930045E637 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04DBCE7D270EE0930045E637 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,10 +73,7 @@
 		04DBCE8F270EE0930045E637 /* ToDoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04DBCE93270EE0930045E637 /* ToDoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoUITests.swift; sourceTree = "<group>"; };
 		04DBCE95270EE0930045E637 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		04DBCEB9270EE2350045E637 /* swiftgen.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = swiftgen.yml; sourceTree = "<group>"; };
 		04DBCF01270EE3FB0045E637 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
-		04DBCF08270EE4850045E637 /* Strings.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Strings.strings; sourceTree = "<group>"; };
-		04DBCF0D270EE4950045E637 /* Assets.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Assets.strings; sourceTree = "<group>"; };
 		04DBCF2F270EE5D30045E637 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		5A32837893C1592AEE3DEADB /* Pods-ToDoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToDoTests.release.xcconfig"; path = "Target Support Files/Pods-ToDoTests/Pods-ToDoTests.release.xcconfig"; sourceTree = "<group>"; };
 		805C2C6F5B998A94041C2676 /* Pods_ToDo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ToDo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -101,10 +113,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0431DB3F270FFFEC00351585 /* Reusable */ = {
+			isa = PBXGroup;
+			children = (
+				0431DB4827101BA800351585 /* SlantedView.swift */,
+			);
+			path = Reusable;
+			sourceTree = "<group>";
+		};
+		0431DED627103AE000351585 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0431DED727103AF500351585 /* UIVIew+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		04DBCE65270EE0910045E637 = {
 			isa = PBXGroup;
 			children = (
-				04DBCEB9270EE2350045E637 /* swiftgen.yml */,
+				0431DE8C2710392600351585 /* swiftgen.yml */,
 				04DBCE70270EE0910045E637 /* ToDo */,
 				04DBCE87270EE0930045E637 /* ToDoTests */,
 				04DBCE92270EE0930045E637 /* ToDoUITests */,
@@ -127,12 +155,10 @@
 		04DBCE70270EE0910045E637 /* ToDo */ = {
 			isa = PBXGroup;
 			children = (
+				0431DED627103AE000351585 /* Extensions */,
+				04DBCF68270F018D0045E637 /* Application Coordinator */,
+				04DBCF48270EF5AA0045E637 /* Views */,
 				04DBCED5270EE3120045E637 /* Supporting */,
-				04DBCE71270EE0910045E637 /* AppDelegate.swift */,
-				04DBCE73270EE0910045E637 /* SceneDelegate.swift */,
-				04DBCE75270EE0910045E637 /* ViewController.swift */,
-				04DBCE77270EE0910045E637 /* Main.storyboard */,
-				04DBCE7C270EE0930045E637 /* LaunchScreen.storyboard */,
 			);
 			path = ToDo;
 			sourceTree = "<group>";
@@ -160,6 +186,7 @@
 			children = (
 				04DBCF06270EE4100045E637 /* SwiftGen */,
 				04DBCE7F270EE0930045E637 /* Info.plist */,
+				0431DB08270FF51F00351585 /* GoogleService-Info.plist */,
 				04DBCF30270EE5D30045E637 /* Localizable.strings */,
 				04DBCE7A270EE0930045E637 /* Assets.xcassets */,
 				04DBCF01270EE3FB0045E637 /* Colors.xcassets */,
@@ -170,10 +197,41 @@
 		04DBCF06270EE4100045E637 /* SwiftGen */ = {
 			isa = PBXGroup;
 			children = (
-				04DBCF08270EE4850045E637 /* Strings.strings */,
-				04DBCF0D270EE4950045E637 /* Assets.strings */,
+				0431DE942710394000351585 /* Strings.swift */,
+				0431DE992710396E00351585 /* Assets.swift */,
 			);
 			path = SwiftGen;
+			sourceTree = "<group>";
+		};
+		04DBCF48270EF5AA0045E637 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0431DB3F270FFFEC00351585 /* Reusable */,
+				04DBCF60270EF81B0045E637 /* SignIn */,
+				04DBCE77270EE0910045E637 /* Main.storyboard */,
+				04DBCE7C270EE0930045E637 /* LaunchScreen.storyboard */,
+				04DBCE71270EE0910045E637 /* AppDelegate.swift */,
+				04DBCE73270EE0910045E637 /* SceneDelegate.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		04DBCF60270EF81B0045E637 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				040C9734270FE6ED007A54CD /* SignInViewController.swift */,
+				0431DEF92710503400351585 /* SigInViewController+View.swift */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		04DBCF68270F018D0045E637 /* Application Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				040C9715270FD9EE007A54CD /* ApplicationCoordinator.swift */,
+				040C972F270FE640007A54CD /* ApplicationCoordinator+Navigation.swift */,
+			);
+			path = "Application Coordinator";
 			sourceTree = "<group>";
 		};
 		50B4114ABD1E212DB40D85BE /* Pods */ = {
@@ -211,7 +269,7 @@
 				04DBCE6B270EE0910045E637 /* Frameworks */,
 				04DBCE6C270EE0910045E637 /* Resources */,
 				AA27B422D8D53D77F98609E4 /* [CP] Embed Pods Frameworks */,
-				04DBCEB8270EE1A50045E637 /* ShellScript */,
+				0431DDB52710338500351585 /* SwiftGen */,
 			);
 			buildRules = (
 			);
@@ -310,12 +368,11 @@
 			files = (
 				04DBCF02270EE3FB0045E637 /* Colors.xcassets in Resources */,
 				04DBCE7E270EE0930045E637 /* LaunchScreen.storyboard in Resources */,
-				04DBCF0E270EE4950045E637 /* Assets.strings in Resources */,
+				0431DB09270FF51F00351585 /* GoogleService-Info.plist in Resources */,
 				04DBCE7B270EE0930045E637 /* Assets.xcassets in Resources */,
 				04DBCE79270EE0910045E637 /* Main.storyboard in Resources */,
 				04DBCF2E270EE5D30045E637 /* Localizable.strings in Resources */,
-				04DBCEBA270EE2350045E637 /* swiftgen.yml in Resources */,
-				04DBCF09270EE4850045E637 /* Strings.strings in Resources */,
+				0431DE8D2710392600351585 /* swiftgen.yml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,7 +393,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		04DBCEB8270EE1A50045E637 /* ShellScript */ = {
+		0431DDB52710338500351585 /* SwiftGen */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -345,13 +402,14 @@
 			);
 			inputPaths = (
 			);
+			name = SwiftGen;
 			outputFileListPaths = (
 			);
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "if [[ -f \"${PODS_ROOT}/SwiftGen/bin/swiftgen\" ]]; then\n  \"${PODS_ROOT}/SwiftGen/bin/swiftgen\"\nelse\n  echo \"warning: SwiftGen is not installed. Run 'pod install --repo-update' to install it.\"\nfi # Type a script or drag a script file from your workspace to insert its path.\n";
+			shellScript = "if [[ -f \"${PODS_ROOT}/SwiftGen/bin/swiftgen\" ]]; then\n  \"${PODS_ROOT}/SwiftGen/bin/swiftgen\"\nelse\n  echo \"warning: SwiftGen is not installed. Run 'pod install --repo-update' to install it.\"\nfi \n";
 		};
 		2D3DE82262AF7CD457FCDDE3 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -460,9 +518,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04DBCE76270EE0910045E637 /* ViewController.swift in Sources */,
+				0431DB4927101BA800351585 /* SlantedView.swift in Sources */,
+				040C9735270FE6ED007A54CD /* SignInViewController.swift in Sources */,
+				0431DE9A2710396E00351585 /* Assets.swift in Sources */,
+				040C9716270FD9EE007A54CD /* ApplicationCoordinator.swift in Sources */,
+				040C9730270FE640007A54CD /* ApplicationCoordinator+Navigation.swift in Sources */,
 				04DBCE72270EE0910045E637 /* AppDelegate.swift in Sources */,
+				0431DEFA2710503400351585 /* SigInViewController+View.swift in Sources */,
+				0431DED827103AF500351585 /* UIVIew+Extensions.swift in Sources */,
 				04DBCE74270EE0910045E637 /* SceneDelegate.swift in Sources */,
+				0431DE952710394000351585 /* Strings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
